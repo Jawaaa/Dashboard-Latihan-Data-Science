@@ -58,7 +58,7 @@ def create_rfm_df(df):
     return rfm_df
 
 # Load data
-all_df = pd.read_csv("D:/Dashboard/all_data.csv")
+all_df = pd.read_csv("all_data.csv")
 
 # Convert datetime columns
 datetime_columns = ["order_date", "delivery_date"]
